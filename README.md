@@ -38,16 +38,6 @@ Bandingkan nilai hash yang dihasilkan dengan informasi hash yang tertera pada ca
 
 ---
 
-## 🌐 Ekosistem Perangkat Lunak PancakaLabs
-
-PancakaLabs menghadirkan solusi perangkat lunak mandiri, cepat, dan berkinerja tinggi yang dirancang untuk mendukung operasional lembaga pendidikan, instansi pemerintah, dan organisasi:
-
-* **Sistem Ujian Berbasis Komputer & Sekolah:** Ujian berbasis LAN/Online mandiri, integrasi Dapodik Kemendikbud, generator soal cerdas, dan sistem anti-kecurangan.
-* **Sistem Pemilihan E-Voting Mandiri:** Pemilihan umum digital tingkat TPS, Pilkades, OSIS, dan organisasi dengan bilik suara digital, scan QR DPT, dan hitung cepat *real-time*.
-* **Aplikasi Utilitas & Alat Produktivitas:** Solusi manajemen jaringan, bridge sinkronisasi data, dan utilitas pendukung operasional lapangan.
-
----
-
 ## 📞 Layanan & Dukungan Pelanggan
 
 Untuk informasi produk, pembelian lisensi resmi, atau bantuan teknis operasional:
