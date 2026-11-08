@@ -1,46 +1,60 @@
-# 📦 Pancakalabs - Software Release & Installer Distribution
+# 📦 PancakaLabs — Official Software Releases & Binary Distribution
 
-Repositori resmi penyimpanan dan distribusi berkas installer aplikasi **Pancakalabs**. Semua installer yang tersedia di sini telah melewati tahap pengujian build dan siap digunakan untuk kebutuhan produksi.
+Repositori resmi penyimpanan berkas rilis biner, installer paket (*Standalone Setup*), dan distribusi perangkat lunak di ekosistem **PancakaLabs**.
 
----
-
-## 📥 Daftar Installer & Rilis Resmi
-
-Unduh berkas instalasi terbaru melalui tabel di bawah ini atau melalui menu **[Releases](../../releases)** di GitHub:
-
-| Aplikasi | Versi Terbaru | Tipe Berkas | Ukuran | Tautan Unduhan |
-| :--- | :---: | :---: | :---: | :--- |
-| **CBT-GoExa** | `v1.3.3` | `.exe` (Setup) | ~300 MB | [⬇️ Unduh Installer](https://www.mediafire.com/file/jnmekxr95mql455/Ujianku-CBT-Setup-v1.3.3.exe/file) • [GitHub Releases](../../releases) |
-| **KONEKA-LINK** | `v1.2.1` | `.exe` (Setup) | ~50 MB | [⬇️ Unduh Installer](https://www.mediafire.com/file/uw4359x5mxma5y6/KONEKA-LINK_Setup.exe/file) • [GitHub Releases](../../releases) |
-| **TPKS Client** | `v2.1.0` | `.msi` (Setup) | ~150 MB | [⬇️ Unduh Installer](../../releases) |
-| **TPS-DIGITAL** | `v1.3.3` | `.exe` (Setup) | - | *Segera Dirilis* |
-| **Fravio Photobooth** | `v1.0.0` | `.exe` (Setup) | - | *Segera Dirilis* |
+Semua berkas yang dipublikasikan di repositori ini telah melalui proses kompilasi otomatis (*build pipeline*), pengujian performa, dan siap digunakan untuk kebutuhan operasional maupun lingkungan produksi.
 
 ---
 
-## 🚀 Panduan Penggunaan Installer
+## 📥 Mengunduh Berkas Rilis Terbaru
 
-1. **Unduh Berkas:** Pilih aplikasi yang dibutuhkan dari tabel di atas atau buka halaman **[Releases](../../releases)**.
-2. **Jalankan Instalasi:** Klik 2x pada file installer (`.exe` atau `.msi`).
-3. **Ikuti Wizard:** Ikuti panduan di layar hingga instalasi selesai. Shortcut akan otomatis dibuat di desktop.
+Untuk mengunduh berkas installer paket versi terbaru dari seluruh aplikasi PancakaLabs, silakan akses melalui:
+
+* 🌐 **Pusat Unduhan & Dokumentasi Resmi:** [https://pancakalabs.my.id/unduh](https://pancakalabs.my.id/unduh)
+* 🚀 **Daftar Rilis GitHub (Assets & Changelog):** [GitHub Releases](https://github.com/JurigSawah2000/Pancakalabs-Release/releases)
+
+Setiap halaman rilis menyertakan catatan pembaruan (*Changelog*), tautan berkas instalasi (`.exe` / `.msi`), tautan mirror resmi, dan informasi spesifikasi perangkat keras minimum.
 
 ---
 
-## 🔒 Verifikasi Integritas Berkas (SHA-256)
+## 🛠️ Panduan Pemasangan Umum
 
-Untuk memastikan berkas installer utuh dan tidak rusak selama proses pengunduhan, buka PowerShell lalu jalankan:
+1. **Unduh Berkas:** Dapatkan berkas installer resmi melalui tab [Releases](../../releases) atau portal resmi [pancakalabs.my.id](https://pancakalabs.my.id).
+2. **Jalankan Pemasangan:** Klik dua kali pada berkas installer yang telah diunduh.
+3. **Ikuti Wizard Instalasi:** Ikuti panduan wizard pada layar komputer Anda hingga proses pemasangan selesai. Pintasan (*shortcut*) aplikasi akan otomatis dibuat di Desktop dan Start Menu.
+4. **Otentikasi & Lisensi:** Jalankan aplikasi, lalu masuk menggunakan akun Google yang telah terdaftar pada portal [pancakalabs.my.id](https://pancakalabs.my.id) untuk mengaktifkan lisensi secara instan.
+
+---
+
+## 🔒 Verifikasi Integritas Berkas (SHA-256 Checksum)
+
+Untuk memastikan keaslian berkas dan memastikan file tidak mengalami kerusakan (*corrupted*) saat proses pengunduhan, Anda dapat memeriksa nilai hash SHA-256 menggunakan PowerShell di Windows:
 
 ```powershell
-Get-FileHash -Path ".\Nama-Installer.exe" -Algorithm SHA256
+Get-FileHash -Path ".\NamaBerkasInstaller.exe" -Algorithm SHA256
 ```
 
----
-
-## 📞 Kontak & Dukungan
-
-Jika mengalami kendala saat mengunduh atau memasang aplikasi, hubungi tim kami:
-* **Website:** [pancakalabs.com](https://pancakalabs.com)
-* **Bantuan:** support@pancakalabs.com
+Bandingkan nilai hash yang dihasilkan dengan informasi hash yang tertera pada catatan rilis resmi di GitHub Releases.
 
 ---
-<sub>© 2025–2026 Pancakalabs. Seluruh Hak Cipta Dilindungi.</sub>
+
+## 🌐 Ekosistem Perangkat Lunak PancakaLabs
+
+PancakaLabs menghadirkan solusi perangkat lunak mandiri, cepat, dan berkinerja tinggi yang dirancang untuk mendukung operasional lembaga pendidikan, instansi pemerintah, dan organisasi:
+
+* **Sistem Ujian Berbasis Komputer & Sekolah:** Ujian berbasis LAN/Online mandiri, integrasi Dapodik Kemendikbud, generator soal cerdas, dan sistem anti-kecurangan.
+* **Sistem Pemilihan E-Voting Mandiri:** Pemilihan umum digital tingkat TPS, Pilkades, OSIS, dan organisasi dengan bilik suara digital, scan QR DPT, dan hitung cepat *real-time*.
+* **Aplikasi Utilitas & Alat Produktivitas:** Solusi manajemen jaringan, bridge sinkronisasi data, dan utilitas pendukung operasional lapangan.
+
+---
+
+## 📞 Layanan & Dukungan Pelanggan
+
+Untuk informasi produk, pembelian lisensi resmi, atau bantuan teknis operasional:
+
+* **Website Resmi:** [https://pancakalabs.my.id](https://pancakalabs.my.id)
+* **Pusat Bantuan & Layanan:** Hubungi kontak resmi melalui menu bantuan di portal [pancakalabs.my.id](https://pancakalabs.my.id)
+
+---
+
+<sub>© 2025–2026 <b><a href="https://pancakalabs.my.id">PancakaLabs</a></b>. Seluruh Hak Cipta Dilindungi. Solusi Perangkat Lunak Mandiri, Cepat, dan Andal.</sub>
